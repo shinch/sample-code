@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.gmail.shinch.report.service.history.HistoryServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-07-03T07:34:24" hostname="sinchanghun-ui-MacBook-Pro.local" time="0.013">
+  <properties/>
+  <testcase name="검색 목록 가져오기 spec" classname="com.gmail.shinch.report.service.history.HistoryServiceTest" time="0.006"/>
+  <testcase name="검색 항목 등록 spec" classname="com.gmail.shinch.report.service.history.HistoryServiceTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

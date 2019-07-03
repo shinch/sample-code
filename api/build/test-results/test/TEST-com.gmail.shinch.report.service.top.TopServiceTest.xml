@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.gmail.shinch.report.service.top.TopServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-07-03T07:34:24" hostname="sinchanghun-ui-MacBook-Pro.local" time="0.022">
+  <properties/>
+  <testcase name="자주 찾은 검색어 목록 spec" classname="com.gmail.shinch.report.service.top.TopServiceTest" time="0.012"/>
+  <testcase name="keyword 검색 횟수 추가 spec" classname="com.gmail.shinch.report.service.top.TopServiceTest" time="0.009"/>
+  <testcase name="keyword 검색 신규 추가 spec" classname="com.gmail.shinch.report.service.top.TopServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

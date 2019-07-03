@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.gmail.shinch.report.controller.exception.ExceptionHandlerControllerTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-07-03T07:34:23" hostname="sinchanghun-ui-MacBook-Pro.local" time="0.388">
+  <properties/>
+  <testcase name="NoContentException Handler spec" classname="com.gmail.shinch.report.controller.exception.ExceptionHandlerControllerTest" time="0.048"/>
+  <testcase name="HttpMessageNotReadableException Handler spec" classname="com.gmail.shinch.report.controller.exception.ExceptionHandlerControllerTest" time="0.049"/>
+  <testcase name="MethodArgumentTypeMismatchException Handler spec" classname="com.gmail.shinch.report.controller.exception.ExceptionHandlerControllerTest" time="0.044"/>
+  <testcase name="MethodArgumentNotValidException Handler spec" classname="com.gmail.shinch.report.controller.exception.ExceptionHandlerControllerTest" time="0.066"/>
+  <testcase name="ConstraintViolationException Handler spec" classname="com.gmail.shinch.report.controller.exception.ExceptionHandlerControllerTest" time="0.04"/>
+  <testcase name="UnauthorizedException Handler spec" classname="com.gmail.shinch.report.controller.exception.ExceptionHandlerControllerTest" time="0.021"/>
+  <testcase name="NoHandlerFoundException Handler spec" classname="com.gmail.shinch.report.controller.exception.ExceptionHandlerControllerTest" time="0.027"/>
+  <testcase name="HttpRequestMethodNotSupportedException Handler spec" classname="com.gmail.shinch.report.controller.exception.ExceptionHandlerControllerTest" time="0.025"/>
+  <testcase name="HttpMediaTypeNotSupportedException Handler spec" classname="com.gmail.shinch.report.controller.exception.ExceptionHandlerControllerTest" time="0.029"/>
+  <testcase name="Exception Handler spec" classname="com.gmail.shinch.report.controller.exception.ExceptionHandlerControllerTest" time="0.019"/>
+  <testcase name="NotImplementedException Handler spec" classname="com.gmail.shinch.report.controller.exception.ExceptionHandlerControllerTest" time="0.019"/>
+  <system-out><![CDATA[16:34:23.857 [Test worker] WARN com.gmail.shinch.report.controller.exception.ExceptionHandlerController - NO_CONTENT : message
+16:34:23.901 [Test worker] ERROR com.gmail.shinch.report.controller.exception.ExceptionHandlerController - ERROR Handler
+org.springframework.http.converter.HttpMessageNotReadableException$SpockMock$2083963817: message
+16:34:23.950 [Test worker] ERROR com.gmail.shinch.report.controller.exception.ExceptionHandlerController - ERROR Handler
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException$SpockMock$732441536: message
+16:34:24.017 [Test worker] ERROR com.gmail.shinch.report.controller.exception.ExceptionHandlerController - ERROR Handler
+org.springframework.web.bind.MethodArgumentNotValidException$SpockMock$825475593: null
+16:34:24.057 [Test worker] ERROR com.gmail.shinch.report.controller.exception.ExceptionHandlerController - ERROR Handler
+org.spockframework.mock.codegen.ConstraintViolationException$SpockMock$98440058: null
+16:34:24.105 [Test worker] ERROR com.gmail.shinch.report.controller.exception.ExceptionHandlerController - ERROR Handler
+org.springframework.web.servlet.NoHandlerFoundException$SpockMock$1462245274: null
+16:34:24.130 [Test worker] ERROR com.gmail.shinch.report.controller.exception.ExceptionHandlerController - ERROR Handler
+org.springframework.web.HttpRequestMethodNotSupportedException$SpockMock$395446786: message
+16:34:24.159 [Test worker] ERROR com.gmail.shinch.report.controller.exception.ExceptionHandlerController - ERROR Handler
+org.springframework.web.HttpMediaTypeNotSupportedException$SpockMock$1755224576: message
+16:34:24.179 [Test worker] ERROR com.gmail.shinch.report.controller.exception.ExceptionHandlerController - ERROR Handler
+org.spockframework.mock.codegen.Exception$SpockMock$339566685: message
+16:34:24.197 [Test worker] ERROR com.gmail.shinch.report.controller.exception.ExceptionHandlerController - ERROR Handler
+com.gmail.shinch.report.exception.NotImplementedException$SpockMock$436153864: message
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
